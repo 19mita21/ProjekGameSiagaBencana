@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siaga Bencana Pesisir</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- CANVAS BACKGROUND -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- CONTAINER GAME -->
+    <div id="game-container">
+
+        <!-- HEADER -->
+        <header id="top-menu">
+
+            <div class="left-menu">
+                <button class="menu-btn">
+                    👤 Nama User
+                </button>
+
+                <button class="icon-btn">
+                    📋
+                </button>
+            </div>
+
+            <div class="right-menu">
+
+                <button class="icon-btn">
+                    🔊
+                </button>
+
+                <button class="menu-btn">
+                    ⚙ Pengaturan
+                </button>
+
+            </div>
+
+        </header>
+
+        <!-- CONTENT -->
+        <main id="content">
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer id="bottom-menu">
+
+            <button onclick="loadPage('home')">
+                Beranda
+            </button>
+
+            <button onclick="loadPage('level')">
+                Level
+            </button>
+
+            <button onclick="loadPage('setting')">
+                Setting
+            </button>
+
+        </footer>
+
+    </div>
+
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
